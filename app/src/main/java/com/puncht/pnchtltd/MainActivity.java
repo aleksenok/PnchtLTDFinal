@@ -21,6 +21,8 @@ import com.puncht.pnchtltd.AccountActivity.SignUpActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    //References used: https://www.youtube.com/watch?v=VFS-wfz9Nb4
+
     private Button btnChangePassword, btnRemoveUser,
             changePassword, remove, signOut;
     private TextView email;
@@ -72,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         oldEmail.setVisibility(View.GONE);
 
         password.setVisibility(View.GONE);
-        newPassword.setVisibility(View.GONE);
+        newPassword.setVisibility(View.VISIBLE);
 
         changePassword.setVisibility(View.GONE);
 

@@ -21,6 +21,9 @@ import com.puncht.pnchtltd.R;
 
 public class LoginActivity extends AppCompatActivity {
 
+    //References used: https://www.youtube.com/watch?v=VFS-wfz9Nb4
+
+
     private EditText inputEmail, inputPassword;
     private FirebaseAuth auth;
     private ProgressBar progressBar;

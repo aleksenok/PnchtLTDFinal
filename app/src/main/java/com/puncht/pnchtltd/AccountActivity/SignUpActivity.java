@@ -20,6 +20,8 @@ import com.puncht.pnchtltd.R;
 
 public class SignUpActivity extends AppCompatActivity {
 
+    //References used: https://www.youtube.com/watch?v=VFS-wfz9Nb4
+
     private EditText inputEmail, inputPassword;     //hit option + enter if you on mac , for windows hit ctrl + enter
     private Button btnSignIn, btnSignUp, btnResetPassword;
     private ProgressBar progressBar;

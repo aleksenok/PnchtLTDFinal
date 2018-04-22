@@ -17,6 +17,8 @@ import com.puncht.pnchtltd.R;
 
 public class ResetPasswordActivity extends AppCompatActivity {
 
+    //References used: https://www.youtube.com/watch?v=VFS-wfz9Nb4
+
     private EditText inputEmail;
     private Button btnReset, btnBack;
     private FirebaseAuth auth;
